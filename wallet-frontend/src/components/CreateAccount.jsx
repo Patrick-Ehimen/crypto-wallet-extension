@@ -33,6 +33,7 @@ function CreateAccount({ setWallet, setSeedPhrase }) {
       <Button
         className="frontPageButton"
         type="primary"
+        style={{ backgroundColor: "#6552FE", borderColor: "#6552FE" }}
         onClick={() => generateWallet()}
       >
         Generate Seed Phrase
@@ -45,6 +46,7 @@ function CreateAccount({ setWallet, setSeedPhrase }) {
       <Button
         className="frontPageButton"
         type="default"
+        style={{ color: "#6552FE" }}
         onClick={() => setWalletAndMnemonic()}
       >
         Open Your New Wallet
